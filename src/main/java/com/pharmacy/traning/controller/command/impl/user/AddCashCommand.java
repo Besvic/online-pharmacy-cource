@@ -22,7 +22,6 @@ import static com.pharmacy.traning.controller.command.SessionAttribute.USER;
  * The type Add cash command.
  */
 public class AddCashCommand implements Command {
-    // TODO: 21.04.2022 testing
     private static final ServiceUser serviceUser = ServiceUserImpl.getInstance();
     private static final ValidatorImpl validator = ValidatorImpl.getInstance();
 

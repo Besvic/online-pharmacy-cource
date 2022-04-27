@@ -31,7 +31,6 @@ public class AddProductInOrderCommand implements Command {
     private static final ServiceOrder serviceOrder = ServiceOrderImpl.getInstance();
     private static final ServiceProduct serviceProduct = ServiceProductImpl.getInstance();
 
-    // TODO: 21.04.2022 testing
     @Override
     public Router execute(HttpServletRequest request) throws CommandException {
         HttpSession session = request.getSession();

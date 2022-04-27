@@ -13,7 +13,6 @@ public class CommandFactory {
     private CommandFactory(){
 
     }
-
     /**
      * Get instance command factory.
      *

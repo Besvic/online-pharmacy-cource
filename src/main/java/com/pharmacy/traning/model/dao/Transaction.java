@@ -1,8 +1,6 @@
 package com.pharmacy.traning.model.dao;
 
 import com.pharmacy.traning.exception.DaoException;
-// TODO: 18.04.2022 comment
-//import com.pharmacy.traning.model.pool.ConnectionPool;
 import com.pharmacy.traning.model.pool.ConnectionPool;
 import com.pharmacy.traning.model.pool.HibernateConfig;
 import org.apache.logging.log4j.LogManager;
@@ -43,8 +41,7 @@ public class Transaction {
      */
     public Connection initConnection() throws DaoException {
         try {
-            if (connection == null) { // TODO: 18.04.2022 comment
-//                connection = (Connection) HibernateConfig.getInstance().getSession();
+            if (connection == null) {
                 connection = ConnectionPool.getInstance().getConnection();
             }
             connection.setAutoCommit(false);

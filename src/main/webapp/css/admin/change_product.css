@@ -1,0 +1,105 @@
+body,
+h1,
+h2,
+h3 {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../image/back_image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Architects Daughter', cursive;
+    justify-content: space-between;
+}
+
+td{
+    padding: 15px 20px;
+}
+
+.table_data{
+    width:fit-content;
+
+    margin: 150px auto;
+    padding: 50px 120px;
+
+    border: 7px inset #FF8E00;
+    background-color:#17013bb0;
+}
+
+.img_column{
+    max-width: 800px;
+    width: 650px;
+}
+
+.img{
+    border-style: groove;
+    max-width: 700px;
+    width: 600px;
+}
+.input{
+    border-radius: 5px;
+    height: 25px;
+    font-size: 15px;
+}
+
+
+.label_text{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    margin-right: 10px;
+}
+
+
+
+.dropdown-item {
+    color: #32c2a5;
+}
+
+.save_button{
+    width: 150px;
+    height: 40px;
+    background-color:yellowgreen;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+    border: 3px inset rgb(0, 0, 0);
+    margin: 0 20px 0 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+input[type = number]{
+    width: 100px;
+}
+
+input{
+    border-radius: 3px;
+    border-color: black;
+}
+
+
+
+
+
+
+.input_file{
+    font-family: 'Architects Daughter', cursive;
+
+    background-color: #af4c9e;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 20px;
+    width: 350px;
+    cursor: pointer;
+
+}
